@@ -1,0 +1,1 @@
+cmd_/home/hong/working/linux/echo.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/hong/working/linux/echo.ko /home/hong/working/linux/echo.o /home/hong/working/linux/echo.mod.o
